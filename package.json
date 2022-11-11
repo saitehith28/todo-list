@@ -9,8 +9,6 @@
   "author": "samir dhoke",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^6.4.0",
-    "babel-cli": "^6.26.0",
-    "babel-present-env":"^1.7.0"
+    "concurrently": "^6.4.0"
   }
 }

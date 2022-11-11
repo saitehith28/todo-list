@@ -1,0 +1,76 @@
+.App {
+    background-color: #323232;
+    color: #f8f8ff;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+    .container {
+        width: 40%;
+        margin: auto;
+    }
+
+    .Header {
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .action-btn {
+            // width: 100%;
+            background-color: lightgreen;
+            border: 0;
+            padding: 10px 20px;
+            color: black;
+    
+            &.positive {
+                background-color: lightgreen;
+                color: black;
+            }
+    
+            &.negative {
+                background-color: tomato;
+                color: black;
+            }
+        }
+    }    
+
+    .Footer {
+        display: flex;
+        justify-content: center;
+    }
+}
+.App{
+    background-color: aliceblue;
+    height: 1000px;
+}
+.container{
+    background-color: black;
+    position: relative;
+    top: 110px;
+    border-radius: 20px;
+}
+.positive{
+    border-radius: 15px;
+}
+.negative{
+    border-radius: 15px;
+}
+.save{
+    border-radius: 20px;
+}
+.check{
+    position: relative;
+    right: 400px;
+}
+.boxx{
+    border-radius: 20px;
+}
+.head{
+    position: relative;
+    left: 200px;
+}
+.Task{
+    background-color: lightseagreen;
+}

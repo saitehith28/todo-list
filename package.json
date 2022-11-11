@@ -1,0 +1,14 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "task tracking application in MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd ./backend && npm run dev\" \"cd ./frontend && npm start\""
+  },
+  "author": "samir dhoke",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  }
+}

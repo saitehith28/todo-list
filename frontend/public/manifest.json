@@ -1,0 +1,8 @@
+{
+  "short_name": "Task Tracker",
+  "name": "Simple Task Tracker",  
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f8f8ff",
+  "background_color": "#3f3f3f"
+}

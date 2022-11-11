@@ -4,7 +4,8 @@
   "description": "task tracking application in MERN stack",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"cd ./backend && npm run dev\" \"cd ./frontend && npm start\""
+    "start": "concurrently \"cd ./backend && npm run dev\" \"cd ./frontend && npm start\"",
+    "dev": "nodemon --legacy-watch src/"
   },
   "author": "samir dhoke",
   "license": "ISC",

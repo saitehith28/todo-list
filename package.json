@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"cd ./backend && npm run dev\" \"cd ./frontend && npm start\"",
-    "dev": "nodemon --legacy-watch src/"
+    "dev": "nodemon --legacy-watch src/",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "samir dhoke",
   "license": "ISC",
